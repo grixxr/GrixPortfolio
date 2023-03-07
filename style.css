@@ -1,0 +1,243 @@
+*{
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.aboutMe{
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 30px;
+    text-shadow: 4px 4px 15px black;
+    color: white;
+    list-style-type: none;
+}
+
+.aboutMeBox{
+    position: absolute;
+    margin-top: 2%;
+    margin-left: 10%;
+    width: 80%;
+    height: 750px;
+    background-image: url("res/transparentBox.png");
+    box-shadow: 0px 0px 15px black;
+    border-radius: 25px;
+    animation: 1.5s ease-in-out none running slideAboutMe;
+}
+
+body{
+    background-image:url('res/background.gif');
+    background-repeat: repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.details{
+    position: absolute;
+    margin-top: 15%;
+    margin-left: 5%;
+}
+
+.detailsText{
+    position: absolute;
+    margin-top: 20%;
+    margin-left: 5%;
+}
+
+.detailsText2{
+    position: absolute;
+    margin-top: 27%;
+    margin-left: 5%;
+}
+
+.detailsText3{
+    position: absolute;
+    margin-top: 39%;
+    margin-left: 5%;
+}
+
+.fbLogo{
+    position: absolute;
+    margin-top: 25.2%;
+    margin-left: 39.78%;
+    height: auto;
+    max-width: 4.8%;
+}
+
+.gameLogo{
+    position: absolute;
+    margin-top: 3%;
+    margin-left: 36%;
+    filter: drop-shadow(0px 0px 15px black);
+}
+
+.ghLogo{
+    position: absolute;
+    margin-top: 25.4%;
+    margin-left: 56.5%;
+    height: auto;
+    max-width: 4.8%;
+}
+
+.gmail{
+    position: absolute;
+    margin-top: 3%;
+    margin-left: 5%;
+}
+
+.gmailText{
+    position: absolute;
+    margin-top: 8%;
+    margin-left: 8%;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 30px;
+    text-shadow: 4px 4px 15px black;
+    text-decoration-line: underline;
+    color: white;
+}
+
+h1{
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 35px;
+    text-shadow: 4px 4px 15px black;
+    color: white;
+}
+
+h2{
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 50px;
+    text-shadow: 4px 4px 15px black;
+    color: white;
+}
+
+h3{
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 30px;
+    text-shadow: 4px 4px 15px black;
+    color: white;
+}
+
+.home{
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 30px;
+    text-shadow: 4px 4px 15px black;
+    color: white;
+    list-style-type: none;
+}
+
+.igLogo{
+    position: absolute;
+    margin-top: 25.3%;
+    margin-left: 47.9%;
+    height: auto;
+    max-width: 5.2%;
+}
+
+.introductory{
+    position: absolute;
+    margin-top: 38%;
+    margin-left: 23%;
+}
+
+.language{
+    position: absolute;
+    margin-top: 40%;
+    margin-left: 68%;
+    text-decoration-line: underline; 
+}
+
+.languageLogo{
+    position: absolute;
+    margin-top: 35%;
+    margin-left: 65%;
+    height: auto;
+    max-width: 25%;
+    filter: drop-shadow(0px 0px 15px black);
+}
+
+li{
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 30px;
+    text-shadow: 4px 4px 15px black;
+    color: white;
+}
+
+.logoShadow{
+    position: absolute;
+    margin-top: -9.5%;
+    margin-left: 23.8%;
+    height: auto;
+    max-width: 53.5%;
+}
+
+.mainPicture{
+    animation: 1.5s ease-in-out none running slideMain;
+}
+
+.navBar{
+    position: absolute;
+    top: 5%;
+    display: flex;
+    margin-left: 85%;
+}
+
+.profilePic{
+    position: absolute;
+    margin-top: 5%;
+    margin-left: 62.5%;
+    height: auto;
+    max-width: 30%;
+    filter: drop-shadow(0px 0px 15px black);
+}
+
+.profilePicMain{
+    position: absolute;
+    margin-top: 1%;
+    margin-left: 38%;
+    height: auto;
+    max-width: 25%;
+    z-index: 1;
+}
+
+.title{
+    margin-top: 2%;
+    margin-left: 3%;
+    font-family: "Bebas Neue", "sans-serif";
+    font-size: 60px;
+    text-shadow: 4px 4px 15px black;
+    color: white;
+}
+
+.wave{
+    animation-name: wave-animation;
+    animation-duration: 2.5s;
+    animation-iteration-count: infinite;
+    transform-origin: 70% 70%;
+    display: inline-block;
+}   
+
+@keyframes wave-animation {
+    0% { transform: rotate( 0.0deg) }
+   10% { transform: rotate(14.0deg) }  
+   20% { transform: rotate(-8.0deg) }
+   30% { transform: rotate(14.0deg) }
+   40% { transform: rotate(-4.0deg) }
+   50% { transform: rotate(10.0deg) }
+   60% { transform: rotate( 0.0deg) }  
+  100% { transform: rotate( 0.0deg) }
+}
+
+@keyframes slideMain{
+    from{margin-top: -5%;}
+    to{margin-top: 0%;}
+    0%{opacity: 0;}
+}
+
+@keyframes slideAboutMe{
+    from{margin-top: -3%;}
+    to{margin-top: 2%;}
+    0%{opacity: 0;}
+}

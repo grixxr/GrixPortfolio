@@ -1,0 +1,192 @@
+@media only screen and (max-height: 768px) {
+    .navBar{
+        margin-left: 80%;
+    }
+
+    .introductory{
+        margin-left: 14%;
+    }
+
+    .aboutMeBox{
+        height: 600px;
+    }
+
+    .detailsText{
+        margin-top: 21%;
+    }
+    
+    .detailsText2{
+        margin-top: 29%;
+    }
+
+    .detailsText3{
+        margin-top: 45%;
+    }
+
+    .gameLogo{
+        margin-left: 45%;
+        height: auto;
+        max-width: 15%;
+    }
+
+    .language{
+        margin-left: 69%;
+    }
+
+    .languageLogo{
+        margin-left: 69%;
+    }
+
+    .profilePic{
+        margin-top: 4%;
+        margin-left: 66.5%;
+        height: auto;
+        max-width: 30%;
+        filter: drop-shadow(0px 0px 15px black);
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    .title{
+        margin-top: 3%;
+        margin-left: 5%;
+        font-size: 50px;
+    }
+
+    .navBar{
+        position: absolute;
+        top: 4%;
+        margin-left: 45%;
+    }
+
+    .home{
+        font-family: "Bebas Neue", sans-serif;
+        font-size: 25px;
+    }
+    
+    .aboutMe{
+        margin-left: -20%;
+        font-family: "Bebas Neue", sans-serif;
+        font-size: 25px;
+    }
+
+    .profilePicMain{
+        margin-top: 0%;
+        margin-left: 9%;
+        height: auto;
+        max-width: 80%;
+    }
+    
+    .logoShadow{
+        display: none;
+    }
+    
+    .fbLogo{
+        margin-top: 130%;
+        margin-left: 13%;
+        height: auto;
+        max-width: 20%;
+        filter: drop-shadow(0px 0px 15px black);
+    }
+    
+    .igLogo{
+        margin-top: 130%;
+        margin-left: 39%;
+        height: auto;
+        max-width: 20%;
+        filter: drop-shadow(0px 0px 15px black);
+    }
+    
+    .ghLogo{
+        margin-top: 130%;
+        margin-left: 65%;
+        height: auto;
+        max-width: 20%;
+        filter: drop-shadow(0px 0px 15px black);
+    }
+
+    .introductory{
+        margin-top: 78%;
+        margin-left: 0%;
+    }
+
+    h1{
+        text-align: center;
+    }
+
+    /* */
+
+    .aboutMeBox{
+        height: 1180px;
+    }
+    
+    .gmail{
+        margin-top: 130%;
+        margin-left: 8%;
+    }
+
+    .gmailText{
+        margin-top: 145%;
+        margin-left: 12%;
+        font-size: 20px;  
+    }
+
+    h2{
+        font-size: 30px;
+    }
+
+    li{
+        font-size: 20px;
+    }
+    
+    .details{
+        margin-top: 165%;
+        margin-left: 8%;
+    }
+    
+    .detailsText{
+        margin-top: 180%;
+        margin-left: 12%;
+    }
+    
+    .detailsText2{
+        margin-top: 218%;
+        margin-left: 12%;
+    }
+    
+    .detailsText3{
+        margin-top: 256%;
+        margin-left: 12%;
+    }
+    
+    .language{
+        margin-top: 108%;
+        margin-left: 14.5%;
+    }
+
+    .languageLogo{
+        margin-top: 90%;
+        margin-left: 10%;
+        height: auto;
+        max-width: 80%;
+    }
+
+    h3{
+        font-size: 22px;
+    }
+    
+    .gameLogo{
+        margin-top: 300%;
+        margin-left: 18%;
+        height: auto;
+        max-width: 60%;
+    }
+
+    .profilePic{
+        margin-top: 8%;
+        margin-left: 12.5%;
+        height: auto;
+        max-width: 75%;
+    }
+    
+}
